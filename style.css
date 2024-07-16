@@ -182,3 +182,43 @@ ul {
     letter-spacing: 1px;
     color: var(--accent-color);
 }
+
+.experience {
+    margin-bottom: 60px;
+}
+
+.experience-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.experience-photo {
+    width: 500px; /* Adjust width as necessary */
+    margin-right: 20px;
+}
+
+.experience-logo {
+    width: 100%;
+    height: auto;
+}
+
+.experience-details {
+    flex-grow: 1;
+}
+
+.experience-details h2 {
+    margin: 0 0 10px 0;
+    letter-spacing: 1px;
+    color: var(--accent-color);
+}
+
+.experience-details p {
+    margin: 0 0 10px 0;
+    color: var(--text-color);
+}
+
+.experience-details ul {
+    padding-left: 20px;
+    margin-top: 0;
+}
