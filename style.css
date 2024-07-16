@@ -194,13 +194,26 @@ ul {
 }
 
 .experience-photo {
-    width: 500px; /* Adjust width as necessary */
+    width: 250px; /* Adjust width as necessary */
     margin-right: 20px;
 }
 
 .experience-logo {
-    width: 100%;
+    width: 200px;
     height: auto;
+    max-height: 300px; /* Set a maximum height to maintain consistency */
+}
+
+.gpc-logo {
+    transform: scale(1.1); /* Magnify the image on hover */
+}
+
+.tsmc-logo {
+    transform: scale(1.25); /* Magnify the image on hover */
+}
+
+.nuts-institute-logo {
+    transform: scale(0.9); /* Magnify the image on hover */
 }
 
 .experience-details {
